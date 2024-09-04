@@ -1,0 +1,1071 @@
+- id: '1669721087643'
+  name: Goodnight
+  entities:
+    media_player.tv:
+      source_list:
+      - 10Play
+      - 7plus
+      - 9Now
+      - Amazon Alexa
+      - Apple TV
+      - Apps
+      - Art Gallery
+      - BINGE
+      - Disney+
+      - HDMI 1
+      - HDMI 2
+      - Haystack Local & World News
+      - Home Dashboard
+      - Kayo
+      - LG Channels
+      - Live TV
+      - Media Player
+      - Netflix
+      - Optus Sport
+      - Plex
+      - Prime Video
+      - RX-V6A
+      - Room to Room Share
+      - SBS on Demand
+      - Sports Alert
+      - Stan.
+      - Telstra TV Box Office
+      - 'Tubi: Free Movies & TV'
+      - Web Browser
+      - YouTube
+      assumed_state: true
+      device_class: tv
+      friendly_name: TV
+      supported_features: 24381
+      state: 'off'
+    light.tiles:
+      min_color_temp_kelvin: 2500
+      max_color_temp_kelvin: 9000
+      min_mireds: 111
+      max_mireds: 400
+      effect_list:
+      - effect_colorloop
+      - effect_flame
+      - effect_pulse
+      - effect_morph
+      - effect_stop
+      supported_color_modes:
+      - color_temp
+      - hs
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      icon: mdi:lightbulb-variant
+      friendly_name: Tiles
+      supported_features: 36
+      state: 'off'
+    media_player.yamaha_receiver:
+      source_list:
+      - Spotify
+      - Qobuz
+      - TIDAL
+      - Deezer
+      - Amazon Music
+      - Alexa
+      - AirPlay
+      - MusicCast Link
+      - SERVER
+      - NET RADIO
+      - Bluetooth
+      - USB
+      - TUNER
+      - Shield
+      - PS5
+      - PC
+      - NintendoSwitch
+      - HDMI5
+      - HDMI6
+      - HDMI7
+      - TV
+      - AUDIO1
+      - AUDIO2
+      - AUDIO3
+      - AUDIO4
+      - AUDIO5
+      - PHONO
+      sound_mode_list:
+      - munich
+      - vienna
+      - chamber
+      - cellar_club
+      - roxy_theatre
+      - bottom_line
+      - sports
+      - action_game
+      - roleplaying_game
+      - music_video
+      - standard
+      - spectacle
+      - sci-fi
+      - adventure
+      - drama
+      - mono_movie
+      - 2ch_stereo
+      - all_ch_stereo
+      - surr_decoder
+      - straight
+      group_members:
+      - media_player.yamaha_receiver
+      icon: mdi:speaker
+      friendly_name: Yamaha Receiver
+      supported_features: 888716
+      state: 'off'
+    media_player.shield_android_tv:
+      assumed_state: true
+      device_class: tv
+      friendly_name: SHIELD
+      supported_features: 22457
+      state: 'off'
+    remote.shield_android_tv:
+      activity_list:
+      current_activity: com.google.android.tvlauncher
+      friendly_name: SHIELD
+      supported_features: 4
+      state: 'off'
+    light.hallway_group:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      is_hue_group: true
+      hue_scenes: []
+      hue_type: room
+      lights:
+      - NZ Light
+      - Hallway 1
+      - Hallway 2
+      dynamics: false
+      icon: mdi:lightbulb-group
+      friendly_name: Hallway
+      supported_features: 40
+      state: 'off'
+    light.living_room_lights:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      entity_id:
+      - light.living_room_1
+      - light.living_room_2
+      - light.living_room_3
+      - light.living_room_4
+      icon: mdi:lightbulb-group
+      friendly_name: Living Room Lights
+      supported_features: 40
+      state: 'off'
+    light.govee_dreamview_t1:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - hs
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      rate_limit_total: 100
+      rate_limit_remaining: -17986
+      rate_limit_reset_seconds: -1718996426.89
+      rate_limit_reset: '1970-01-01T10:00:00'
+      rate_limit_on: 5
+      manufacturer: Govee
+      model: H6199
+      friendly_name: Govee DreamView T1
+      supported_features: 19
+      state: 'off'
+  icon: mdi:weather-night
+  metadata:
+    light.hallway_group:
+      entity_only: true
+    light.living_room_lights:
+      entity_only: true
+    light.govee_dreamview_t1:
+      entity_only: true
+- id: '1718908661071'
+  name: Plex
+  entities:
+    media_player.yamaha_receiver:
+      source_list:
+      - Spotify
+      - Qobuz
+      - TIDAL
+      - Deezer
+      - Amazon Music
+      - Alexa
+      - AirPlay
+      - MusicCast Link
+      - SERVER
+      - NET RADIO
+      - Bluetooth
+      - USB
+      - TUNER
+      - Shield
+      - PS5
+      - PC
+      - NintendoSwitch
+      - HDMI5
+      - HDMI6
+      - HDMI7
+      - TV
+      - AUDIO1
+      - AUDIO2
+      - AUDIO3
+      - AUDIO4
+      - AUDIO5
+      - PHONO
+      sound_mode_list:
+      - munich
+      - vienna
+      - chamber
+      - cellar_club
+      - roxy_theatre
+      - bottom_line
+      - sports
+      - action_game
+      - roleplaying_game
+      - music_video
+      - standard
+      - spectacle
+      - sci-fi
+      - adventure
+      - drama
+      - mono_movie
+      - 2ch_stereo
+      - all_ch_stereo
+      - surr_decoder
+      - straight
+      group_members:
+      - media_player.yamaha_receiver
+      volume_level: 0.7018633540372671
+      is_volume_muted: false
+      media_content_type: music
+      source: TV
+      sound_mode: 2ch_stereo
+      shuffle: false
+      repeat: 'off'
+      icon: mdi:speaker
+      friendly_name: Yamaha Receiver
+      supported_features: 1019788
+      state: playing
+    media_player.tv:
+      source_list:
+      - 10Play
+      - 7plus
+      - 9Now
+      - Amazon Alexa
+      - Apple TV
+      - Apps
+      - Art Gallery
+      - BINGE
+      - Disney+
+      - HDMI 1
+      - HDMI 2
+      - HDMI 4
+      - Haystack Local & World News
+      - Home Dashboard
+      - Kayo
+      - LG Channels
+      - Live TV
+      - Media Player
+      - Netflix
+      - Optus Sport
+      - Plex
+      - Prime Video
+      - RX-V6A
+      - Room to Room Share
+      - SBS on Demand
+      - Sports Alert
+      - Stan.
+      - Telstra TV Box Office
+      - 'Tubi: Free Movies & TV'
+      - Web Browser
+      - YouTube
+      volume_level: 0.5
+      is_volume_muted: false
+      source: Plex
+      sound_output: tv_speaker
+      assumed_state: true
+      device_class: tv
+      friendly_name: TV
+      supported_features: 24381
+      entity_picture: /api/media_player_proxy/media_player.tv?token=9751139ec67c4e3305a398aa8cfd0dd12b1ad205e5d687c5cfa0065f1c01ee58&cache=cba6250d5019024a
+      state: 'on'
+    light.govee_dreamview_t1:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - hs
+      color_mode: hs
+      brightness: 28
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 60
+      - 100
+      rgb_color:
+      - 255
+      - 255
+      - 0
+      xy_color:
+      - 0.444
+      - 0.517
+      rate_limit_total: 100
+      rate_limit_remaining: -22904
+      rate_limit_reset_seconds: -1720864183.54
+      rate_limit_reset: '1970-01-01T10:00:00'
+      rate_limit_on: 5
+      manufacturer: Govee
+      model: H6199
+      friendly_name: Govee DreamView T1
+      supported_features: 19
+      state: 'on'
+  icon: mdi:plex
+  metadata: {}
+- id: '1718967921565'
+  name: PS5
+  entities:
+    media_player.yamaha_receiver:
+      source_list:
+      - Spotify
+      - Qobuz
+      - TIDAL
+      - Deezer
+      - Amazon Music
+      - Alexa
+      - AirPlay
+      - MusicCast Link
+      - SERVER
+      - NET RADIO
+      - Bluetooth
+      - USB
+      - TUNER
+      - Shield
+      - PS5
+      - PC
+      - NintendoSwitch
+      - HDMI5
+      - HDMI6
+      - HDMI7
+      - TV
+      - AUDIO1
+      - AUDIO2
+      - AUDIO3
+      - AUDIO4
+      - AUDIO5
+      - PHONO
+      sound_mode_list:
+      - munich
+      - vienna
+      - chamber
+      - cellar_club
+      - roxy_theatre
+      - bottom_line
+      - sports
+      - action_game
+      - roleplaying_game
+      - music_video
+      - standard
+      - spectacle
+      - sci-fi
+      - adventure
+      - drama
+      - mono_movie
+      - 2ch_stereo
+      - all_ch_stereo
+      - surr_decoder
+      - straight
+      group_members:
+      - media_player.yamaha_receiver
+      icon: mdi:speaker
+      friendly_name: Yamaha Receiver
+      supported_features: 1019788
+      volume_level: 0.43478260869565216
+      is_volume_muted: false
+      media_content_type: music
+      source: PS5
+      sound_mode: action_game
+      shuffle: false
+      repeat: 'off'
+      state: playing
+    media_player.tv:
+      source_list:
+      - 10Play
+      - 7plus
+      - 9Now
+      - Amazon Alexa
+      - Apple TV
+      - Apps
+      - Art Gallery
+      - BINGE
+      - Disney+
+      - HDMI 1
+      - HDMI 2
+      - Haystack Local & World News
+      - Home Dashboard
+      - Kayo
+      - LG Channels
+      - Live TV
+      - Media Player
+      - Netflix
+      - Optus Sport
+      - Plex
+      - Prime Video
+      - RX-V6A
+      - Room to Room Share
+      - SBS on Demand
+      - Sports Alert
+      - Stan.
+      - Telstra TV Box Office
+      - 'Tubi: Free Movies & TV'
+      - Web Browser
+      - YouTube
+      sound_output: tv_speaker
+      assumed_state: true
+      device_class: tv
+      friendly_name: TV
+      supported_features: 24381
+      volume_level: 0.3
+      is_volume_muted: false
+      source: RX-V6A
+      state: 'on'
+    light.govee_dreamview_t1:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - hs
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      rate_limit_total: 100
+      rate_limit_remaining: -15122
+      rate_limit_reset_seconds: -1718967931.06
+      rate_limit_reset: '1970-01-01T10:00:00'
+      rate_limit_on: 5
+      manufacturer: Govee
+      model: H6199
+      friendly_name: Govee DreamView T1
+      supported_features: 19
+      state: 'off'
+  icon: phu:playstation
+  metadata: {}
+- id: '1718970739777'
+  name: Airplay Music
+  entities:
+    media_player.yamaha_receiver:
+      source_list:
+      - Spotify
+      - Qobuz
+      - TIDAL
+      - Deezer
+      - Amazon Music
+      - Alexa
+      - AirPlay
+      - MusicCast Link
+      - SERVER
+      - NET RADIO
+      - Bluetooth
+      - USB
+      - TUNER
+      - Shield
+      - PS5
+      - PC
+      - NintendoSwitch
+      - HDMI5
+      - HDMI6
+      - HDMI7
+      - TV
+      - AUDIO1
+      - AUDIO2
+      - AUDIO3
+      - AUDIO4
+      - AUDIO5
+      - PHONO
+      sound_mode_list:
+      - munich
+      - vienna
+      - chamber
+      - cellar_club
+      - roxy_theatre
+      - bottom_line
+      - sports
+      - action_game
+      - roleplaying_game
+      - music_video
+      - standard
+      - spectacle
+      - sci-fi
+      - adventure
+      - drama
+      - mono_movie
+      - 2ch_stereo
+      - all_ch_stereo
+      - surr_decoder
+      - straight
+      icon: mdi:speaker
+      friendly_name: Yamaha Receiver
+      supported_features: 1040317
+      group_members:
+      - media_player.yamaha_receiver
+      volume_level: 0.5652173913043478
+      is_volume_muted: false
+      media_content_type: music
+      source: AirPlay
+      sound_mode: 2ch_stereo
+      shuffle: false
+      repeat: 'off'
+      media_duration: 243
+      media_position: 131
+      media_position_updated_at: '2024-06-21T12:05:52.953308+00:00'
+      media_title: SexyBack (feat. Timbaland)
+      media_artist: Justin Timberlake
+      media_album_name: FutureSex/LoveSounds
+      entity_picture: /api/media_player_proxy/media_player.yamaha_receiver?token=71d15b7844be6ae911f9bf971e22b3802c947b9890e0902796eb1e9e149e0aaf&cache=79733dc2135b3ba7
+      state: playing
+    govee.state:
+      state: async_setup called
+    light.govee_dreamview_t1:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - hs
+      color_mode: hs
+      brightness: 148
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 60
+      - 100
+      rgb_color:
+      - 255
+      - 255
+      - 0
+      xy_color:
+      - 0.444
+      - 0.517
+      rate_limit_total: 100
+      rate_limit_remaining: -15494
+      rate_limit_reset_seconds: -1718971548.05
+      rate_limit_reset: '1970-01-01T10:00:00'
+      rate_limit_on: 5
+      manufacturer: Govee
+      model: H6199
+      friendly_name: Govee DreamView T1
+      supported_features: 19
+      state: 'on'
+  icon: mdi:cast-audio-variant
+  metadata:
+    govee.state:
+      entity_only: true
+    light.govee_dreamview_t1:
+      entity_only: true
+- id: '1719327145537'
+  name: Away
+  entities:
+    light.hallway_group:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      is_hue_group: true
+      hue_scenes: []
+      hue_type: room
+      lights:
+      - Hallway 1
+      - NZ Light
+      - Hallway 2
+      entity_id:
+      - light.nz_light
+      - light.hallway_2
+      - light.hallway_1
+      dynamics: false
+      icon: mdi:lightbulb-group
+      friendly_name: Hallway
+      supported_features: 40
+      state: 'off'
+    light.living_room:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      is_hue_group: true
+      hue_scenes: []
+      hue_type: room
+      lights:
+      - Living Room 4
+      - Living Room 3
+      - Living Room 1
+      - Living Room 2
+      entity_id:
+      - light.living_room_2
+      - light.living_room_3
+      - light.living_room_1
+      - light.living_room_4
+      dynamics: false
+      icon: mdi:lightbulb-group
+      friendly_name: Living room
+      supported_features: 40
+      state: 'off'
+    light.kitchen_group:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      is_hue_group: true
+      hue_scenes: []
+      hue_type: room
+      lights:
+      - Kitchen
+      entity_id:
+      - light.kitchen
+      dynamics: false
+      icon: mdi:lightbulb-group
+      friendly_name: Kitchen
+      supported_features: 40
+      state: 'off'
+    light.bedroom_group:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      is_hue_group: true
+      hue_scenes: []
+      hue_type: room
+      lights:
+      - Bedroom Light 2
+      - Bedroom Light 1
+      entity_id:
+      - light.bedroom_2
+      - light.bedroom_1
+      dynamics: false
+      icon: mdi:lightbulb-group
+      friendly_name: Bedroom
+      supported_features: 40
+      state: 'off'
+    light.tiles:
+      min_color_temp_kelvin: 2500
+      max_color_temp_kelvin: 9000
+      min_mireds: 111
+      max_mireds: 400
+      effect_list:
+      - effect_colorloop
+      - effect_flame
+      - effect_pulse
+      - effect_morph
+      - effect_stop
+      supported_color_modes:
+      - color_temp
+      - hs
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      icon: mdi:lightbulb-variant
+      friendly_name: Tiles
+      supported_features: 36
+      state: 'off'
+    light.govee_dreamview_t3_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - hs
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      rate_limit_total: 100
+      rate_limit_remaining: -2321
+      rate_limit_reset_seconds: -1725028031.43
+      rate_limit_reset: '1970-01-01T10:00:00'
+      rate_limit_on: 5
+      manufacturer: Govee
+      model: H6099
+      friendly_name: TV Backlight 3 Lite
+      supported_features: 19
+      state: 'off'
+  icon: mdi:walk
+  metadata: {}
+- id: '1720402965647'
+  name: Youtube
+  entities:
+    media_player.yamaha_receiver:
+      source_list:
+      - Spotify
+      - Qobuz
+      - TIDAL
+      - Deezer
+      - Amazon Music
+      - Alexa
+      - AirPlay
+      - MusicCast Link
+      - SERVER
+      - NET RADIO
+      - Bluetooth
+      - USB
+      - TUNER
+      - Shield
+      - PS5
+      - PC
+      - NintendoSwitch
+      - HDMI5
+      - HDMI6
+      - HDMI7
+      - TV
+      - AUDIO1
+      - AUDIO2
+      - AUDIO3
+      - AUDIO4
+      - AUDIO5
+      - PHONO
+      sound_mode_list:
+      - munich
+      - vienna
+      - chamber
+      - cellar_club
+      - roxy_theatre
+      - bottom_line
+      - sports
+      - action_game
+      - roleplaying_game
+      - music_video
+      - standard
+      - spectacle
+      - sci-fi
+      - adventure
+      - drama
+      - mono_movie
+      - 2ch_stereo
+      - all_ch_stereo
+      - surr_decoder
+      - straight
+      group_members:
+      - media_player.yamaha_receiver
+      volume_level: 0.7018633540372671
+      is_volume_muted: false
+      media_content_type: music
+      source: TV
+      sound_mode: 2ch_stereo
+      shuffle: false
+      repeat: 'off'
+      icon: mdi:speaker
+      friendly_name: Yamaha Receiver
+      supported_features: 1019788
+      state: playing
+    media_player.tv:
+      source_list:
+      - 10Play
+      - 7plus
+      - 9Now
+      - Amazon Alexa
+      - Apple TV
+      - Apps
+      - Art Gallery
+      - BINGE
+      - Disney+
+      - HDMI 1
+      - HDMI 2
+      - HDMI 4
+      - Haystack Local & World News
+      - Home Dashboard
+      - Kayo
+      - LG Channels
+      - Live TV
+      - Media Player
+      - Netflix
+      - Optus Sport
+      - Plex
+      - Prime Video
+      - RX-V6A
+      - Room to Room Share
+      - SBS on Demand
+      - Sports Alert
+      - Stan.
+      - Telstra TV Box Office
+      - 'Tubi: Free Movies & TV'
+      - Web Browser
+      - YouTube
+      volume_level: 0.35
+      is_volume_muted: false
+      source: YouTube
+      sound_output: tv_speaker
+      assumed_state: true
+      device_class: tv
+      friendly_name: TV
+      supported_features: 24381
+      entity_picture: /api/media_player_proxy/media_player.tv?token=9751139ec67c4e3305a398aa8cfd0dd12b1ad205e5d687c5cfa0065f1c01ee58&cache=0913cc9139c0a3d9
+      state: 'on'
+    light.govee_dreamview_t1:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - hs
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      rate_limit_total: 100
+      rate_limit_remaining: -22892
+      rate_limit_reset_seconds: -1720864103.55
+      rate_limit_reset: '1970-01-01T10:00:00'
+      rate_limit_on: 5
+      manufacturer: Govee
+      model: H6199
+      friendly_name: Govee DreamView T1
+      supported_features: 19
+      state: 'off'
+  icon: mdi:youtube-tv
+  metadata: {}
+- id: '1720403053934'
+  name: PC to TV
+  entities:
+    media_player.yamaha_receiver:
+      source_list:
+      - Spotify
+      - Qobuz
+      - TIDAL
+      - Deezer
+      - Amazon Music
+      - Alexa
+      - AirPlay
+      - MusicCast Link
+      - SERVER
+      - NET RADIO
+      - Bluetooth
+      - USB
+      - TUNER
+      - Shield
+      - PS5
+      - PC
+      - NintendoSwitch
+      - HDMI5
+      - HDMI6
+      - HDMI7
+      - TV
+      - AUDIO1
+      - AUDIO2
+      - AUDIO3
+      - AUDIO4
+      - AUDIO5
+      - PHONO
+      sound_mode_list:
+      - munich
+      - vienna
+      - chamber
+      - cellar_club
+      - roxy_theatre
+      - bottom_line
+      - sports
+      - action_game
+      - roleplaying_game
+      - music_video
+      - standard
+      - spectacle
+      - sci-fi
+      - adventure
+      - drama
+      - mono_movie
+      - 2ch_stereo
+      - all_ch_stereo
+      - surr_decoder
+      - straight
+      group_members:
+      - media_player.yamaha_receiver
+      volume_level: 0.7018633540372671
+      is_volume_muted: false
+      media_content_type: music
+      source: PC
+      sound_mode: action_game
+      shuffle: false
+      repeat: 'off'
+      icon: mdi:speaker
+      friendly_name: Yamaha Receiver
+      supported_features: 1019788
+      state: playing
+    media_player.tv:
+      source_list:
+      - 10Play
+      - 7plus
+      - 9Now
+      - Amazon Alexa
+      - Apple TV
+      - Apps
+      - Art Gallery
+      - BINGE
+      - Disney+
+      - HDMI 1
+      - HDMI 2
+      - Haystack Local & World News
+      - Home Dashboard
+      - Kayo
+      - LG Channels
+      - Live TV
+      - Media Player
+      - Netflix
+      - Optus Sport
+      - Plex
+      - Prime Video
+      - RX-V6A
+      - Room to Room Share
+      - SBS on Demand
+      - Sports Alert
+      - Stan.
+      - Telstra TV Box Office
+      - 'Tubi: Free Movies & TV'
+      - Web Browser
+      - YouTube
+      volume_level: 0.35
+      is_volume_muted: false
+      source: RX-V6A
+      sound_output: tv_speaker
+      assumed_state: true
+      device_class: tv
+      friendly_name: TV
+      supported_features: 24381
+      state: 'on'
+    light.govee_dreamview_t1:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 9009
+      min_mireds: 111
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - hs
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      rate_limit_total: 100
+      rate_limit_remaining: -3773
+      rate_limit_reset_seconds: -1720403057.4
+      rate_limit_reset: '1970-01-01T10:00:00'
+      rate_limit_on: 5
+      manufacturer: Govee
+      model: H6199
+      friendly_name: Govee DreamView T1
+      supported_features: 19
+      state: 'off'
+  icon: hue:room-computer
+  metadata: {}
+- id: 'blue_light_removal_scene'
+  name: Blue Light Removal
+  entities:
+    light.bedroom_group:
+      state: 'on'
+      brightness: 128
+      color_temp: 450  # Adjust this value to your preferred warm color
+    light.hallway_group:
+      state: 'on'
+      brightness: 128
+      color_temp: 450
+    light.kitchen_group:
+      state: 'on'
+      brightness: 128
+      color_temp: 450
+    light.living_room:
+      state: 'on'
+      brightness: 128
+      color_temp: 450
+    light.tv_room:
+      state: 'on'
+      brightness: 128
+      color_temp: 450
